@@ -1,0 +1,69 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.message {
+  position: relative;
+}
+
+.message .options,
+.message .visualized {
+  position: absolute;
+}
+
+.message .options {
+  top: 2px;
+  right: 5px;
+  visibility: hidden;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message:hover .options {
+  visibility: visible;
+}
+
+.message .options:hover {
+  background-color: var(--cor-hover);
+}
+
+.message .visualized {
+  bottom: 2px;
+  right: 10px;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+  fill: white;
+}
+
+.message .options {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.message .options:hover {
+  
+}
+
+.visualized svg {
+  fill: #74C0FC;
+}
+
+.recebido {
+  margin-right: auto;
+}
+
+.enviado {
+  margin-left: auto;
+  background-color: var(--cor-mensagem-secundaria);
+}
