@@ -3,7 +3,7 @@
 function Botao({ svg }) {
 
   return (
-    <button>
+    <button className="options">
       {svg}
     </button>
   );

@@ -1,5 +1,5 @@
 import "./App.css"
-import MessageContainer from './components/MessageContainer/MensagemContainer'
+import Mensagens from "./components/Mensagens/MensagensContainer";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div style={centralizacao}>
-      <MessageContainer />
+      <Mensagens />
     </div>
   )
 }
